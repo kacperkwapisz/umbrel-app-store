@@ -4,7 +4,7 @@ name: Ownfoil
 tagline: Nintendo Switch library manager and Tinfoil Shop server
 icon: https://raw.githubusercontent.com/a1ex4/ownfoil/main/app/static/favicon.png
 category: Media
-version: "1.0.0"
+version: "1.0.1"
 port: 8465
 description: >-
   Ownfoil is a Nintendo Switch library manager and self-hosted Tinfoil Shop server.
