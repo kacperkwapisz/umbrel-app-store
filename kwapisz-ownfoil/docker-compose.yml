@@ -5,7 +5,7 @@ services:
   app_proxy:
     environment:
       APP_HOST: kwapisz-ownfoil_server_1
-      APP_PORT: 8465
+      APP_PORT: 8000
       PROXY_AUTH_ADD: "false"
 
   server:
@@ -18,4 +18,4 @@ services:
       - ${APP_DATA_DIR}/games:/games
       - ${APP_DATA_DIR}/config:/app/config
     ports:
-      - "8465:8465"
+      - "8000:8465"
