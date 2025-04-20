@@ -4,10 +4,10 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: kwapisz-ownfoil_server_1
+      APP_HOST: kwapisz-ownfoil_ownfoil_1
       APP_PORT: 8465
 
-  server:
+  ownfoil:
     image: a1ex4/ownfoil
     container_name: ownfoil
     user: "1000:1000"
