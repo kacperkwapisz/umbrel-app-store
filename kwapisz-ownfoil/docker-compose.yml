@@ -11,12 +11,11 @@ services:
   server:
     image: a1ex4/ownfoil:v2
     restart: on-failure
-    volumes:
-      - ${APP_DATA_DIR}/games:/games
-      - ${APP_DATA_DIR}/config:/app/config
-
     enviroments:
       - "PUID=1000"
       - "PGID=1000"
+    volumes:
+      - ${APP_DATA_DIR}/games:/games
+      - ${APP_DATA_DIR}/config:/app/config
     ports:
       - "8465:8465"
