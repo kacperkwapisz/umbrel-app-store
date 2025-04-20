@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: ownfoil
+id: kwapisz-ownfoil
 name: Ownfoil
 tagline: Nintendo Switch library manager and Tinfoil Shop server
 icon: https://raw.githubusercontent.com/a1ex4/ownfoil/main/app/static/favicon.png
@@ -23,7 +23,7 @@ gallery:
   - https://i.imgur.com/yyVG0Jb.jpeg
   - https://i.imgur.com/yyVG0Jb.jpeg
 releaseNotes: >-
-  Initial Umbrel app store release of Ownfoil. Includes Tinfoil Shop hosting, library scan tools, and admin interface.
+  Initial Umbrel Community App Store release of Ownfoil.
 dependencies: []
 path: ""
 defaultUsername: ""
