@@ -2,7 +2,7 @@ manifestVersion: 1
 id: kwapisz-ownfoil
 name: Ownfoil
 tagline: Nintendo Switch library manager and Tinfoil Shop server
-icon: https://raw.githubusercontent.com/a1ex4/ownfoil/main/app/static/favicon.png
+icon: https://i.imgur.com/JedzafH.png
 category: Media
 version: "1.0.0"
 port: 8465
