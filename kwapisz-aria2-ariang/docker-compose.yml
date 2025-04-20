@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: kwapisz-aria2-ariang_server_1
+      APP_PORT: 8080
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: hurlenko/aria2-ariang
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - RPC_SECRET=umbrel
+      - ARIA2RPCPORT=8080
+    volumes:
+      - ${APP_DATA_DIR}/config:/aria2/conf
+      - ${APP_DATA_DIR}/downloads:/aria2/data

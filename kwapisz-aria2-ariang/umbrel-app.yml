@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: kwapisz-aria2-ariang
+name: Aria2 + AriaNg
+tagline: Web frontend for Aria2 download manager
+icon: https://i.imgur.com/sVNV4gZ.png
+category: Downloaders
+version: "1.0.0"
+port: 8080
+description: >-
+  Aria2 with AriaNg UI is a lightweight and powerful downloader. Supports torrents, metalinks, and more. Clean, responsive interface and easy configuration.
+
+developer: hurlenko
+website: https://github.com/hurlenko/aria2-ariang
+submitter: kwapisz
+submission: https://github.com/kacperkwapisz/umbrel-app-store
+repo: https://github.com/hurlenko/aria2-ariang
+support: https://github.com/hurlenko/aria2-ariang/issues
+gallery:
+  - https://user-images.githubusercontent.com/10330103/170003244-82ef56c3-5589-460e-8e93-9c378b23f9cd.png
+releaseNotes: >-
+  Initial Umbrel integration with persistent downloads and RPC secret.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
