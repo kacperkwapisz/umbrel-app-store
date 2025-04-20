@@ -4,14 +4,15 @@ services:
 
   app_proxy:
     environment:
-      APP_HOST: kwapisz-ownfoil_ownfoil_1
+      APP_HOST: kwapisz-ownfoil_server_1
       APP_PORT: 8465
+      PROXY_AUTH_ADD: "false"
 
-  ownfoil:
+  server:
     image: a1ex4/ownfoil
-    container_name: ownfoil
+    restart: on-failure
     user: "1000:1000"
     init: true
     volumes:
-      - ./volumes/games:/games
-      - ./volumes/config:/app/config
+      - ${APP_DATA_DIR}/games:/games
+      - ${APP_DATA_DIR}/config:/app/config
