@@ -9,7 +9,7 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: a1ex4/ownfoil:v2
+    image: a1ex4/ownfoil
     restart: on-failure
     enviroments:
       - "PUID=1000"
