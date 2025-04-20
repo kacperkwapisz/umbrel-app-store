@@ -9,10 +9,14 @@ services:
       PROXY_AUTH_ADD: "false"
 
   server:
-    image: a1ex4/ownfoil
+    image: a1ex4/ownfoil:v2
     restart: on-failure
-    user: "1000:1000"
-    init: true
     volumes:
       - ${APP_DATA_DIR}/games:/games
       - ${APP_DATA_DIR}/config:/app/config
+
+    enviroments:
+      - "PUID=1000"
+      - "PGID=1000"
+    ports:
+      - "8465:8465"
