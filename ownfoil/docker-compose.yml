@@ -1,0 +1,17 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: ownfoil_server_1
+      APP_PORT: 8465
+
+  server:
+    image: a1ex4/ownfoil
+    container_name: ownfoil
+    user: "1000:1000"
+    init: true
+    volumes:
+      - ./volumes/games:/games
+      - ./volumes/config:/app/config

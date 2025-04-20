@@ -1,0 +1,30 @@
+manifestVersion: 1
+id: ownfoil
+name: Ownfoil
+tagline: Nintendo Switch library manager and Tinfoil Shop server
+icon: https://raw.githubusercontent.com/a1ex4/ownfoil/main/app/static/favicon.png
+category: Media
+version: "1.0.0"
+port: 8465
+description: >-
+  Ownfoil is a Nintendo Switch library manager and self-hosted Tinfoil Shop server.
+  Features include multi-user support, content identification, and full shop customization.
+
+  Easily browse and manage your game library via a clean web interface.
+
+developer: a1ex4
+website: https://github.com/a1ex4/ownfoil
+submitter: Kacper
+submission: https://github.com/a1ex4/ownfoil
+repo: https://github.com/a1ex4/ownfoil
+support: https://github.com/a1ex4/ownfoil/issues
+gallery:
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+  - https://i.imgur.com/yyVG0Jb.jpeg
+releaseNotes: >-
+  Initial Umbrel app store release of Ownfoil. Includes Tinfoil Shop hosting, library scan tools, and admin interface.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
