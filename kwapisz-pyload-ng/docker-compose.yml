@@ -1,0 +1,19 @@
+version: "3.7"
+
+services:
+  app_proxy:
+    environment:
+      APP_HOST: kwapisz-pyload-ng_server_1
+      APP_PORT: 8000
+      #PROXY_AUTH_ADD: "false"
+
+  server:
+    image: lscr.io/linuxserver/pyload:latest
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Berlin
+    volumes:
+      - ${APP_DATA_DIR}/config:/config
+      - ${APP_DATA_DIR}/downloads:/downloads

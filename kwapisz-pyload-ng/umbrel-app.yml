@@ -1,0 +1,24 @@
+manifestVersion: 1
+id: kwapisz-pyload-ng
+name: pyLoad NG
+tagline: The best download manager for your Umbrel
+icon: https://i.imgur.com/s3fZT6U.png
+category: Downloaders
+version: "1.0.0"
+port: 4580
+description: >-
+  pyLoad is a fast, lightweight and full-featured download manager written in Python. It supports one-click hosters, container formats, captcha recognition, and much more.
+
+developer: linuxserver
+website: https://github.com/linuxserver/docker-pyload
+submitter: kwapisz
+submission: https://github.com/kacperkwapisz/umbrel-app-store
+repo: https://github.com/linuxserver/docker-pyload
+support: https://github.com/linuxserver/docker-pyload/issues
+gallery: []
+releaseNotes: >-
+  Initial release of pyLoad NG as an Umbrel app.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
