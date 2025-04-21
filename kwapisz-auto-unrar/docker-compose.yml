@@ -11,7 +11,7 @@ services:
   server:
     image: nicxx2/auto-unrar:latest
     restart: on-failure
-    -port: 3000
+    port: 3000
     environment:
       - PUID=1000
       - PGID=1000
