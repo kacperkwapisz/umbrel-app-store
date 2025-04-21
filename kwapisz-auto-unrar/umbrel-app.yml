@@ -1,0 +1,26 @@
+manifestVersion: 1
+id: kwapisz-auto-unrar
+name: Auto UnRAR
+tagline: Automatically extract RAR files in the background
+icon: https://i.imgur.com/tygPeGc.png
+category: Utilities
+version: "1.0.0"
+port: 0
+description: >-
+  Auto-UnRAR is a background utility that scans a directory at regular intervals and extracts RAR files automatically. 
+  Ideal for media libraries and archive management, with flexible configuration options for overwrite, extraction location, and cleanup.
+
+developer: Nicxx2
+website: https://github.com/Nicxx2/auto-unrar
+submitter: kwapisz
+submission: https://github.com/kacperkwapisz/umbrel-app-store
+repo: https://github.com/Nicxx2/auto-unrar
+support: https://github.com/Nicxx2/auto-unrar/issues
+gallery:
+  - https://raw.githubusercontent.com/Nicxx2/auto-unrar/main/auto_unrar.png
+releaseNotes: >-
+  Initial Umbrel app release with default hourly scanning and optional config for file overwriting and cleanup.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

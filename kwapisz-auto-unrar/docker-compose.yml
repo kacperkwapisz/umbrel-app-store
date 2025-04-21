@@ -1,0 +1,20 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: kwapisz-auto-unrar_server_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "true"
+
+  server:
+    image: nicxx2/auto-unrar:latest
+    restart: on-failure
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - SOURCE_DIRECTORY=/data
+      - SLEEP_TIME=3600
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
