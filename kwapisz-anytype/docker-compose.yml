@@ -57,9 +57,16 @@ services:
     volumes:
       - ${APP_DATA_DIR}/data:/data
     environment:
-      ANY_SYNC_BUNDLE_INIT_EXTERNAL_ADDRS: "anysync.kwapisz.co"
+      ANY_SYNC_BUNDLE_INIT_EXTERNAL_ADDRS: "domain-name"
       ANY_SYNC_BUNDLE_INIT_S3_BUCKET: "anytype-data"
       ANY_SYNC_BUNDLE_INIT_S3_ENDPOINT: "http://minio:9000"
       ANY_SYNC_BUNDLE_INIT_S3_FORCE_PATH_STYLE: "true"
       AWS_ACCESS_KEY_ID: "minioadmin"
       AWS_SECRET_ACCESS_KEY: "minioadmin"
+
+
+  playit:
+    image: ghcr.io/playit-cloud/playit-agent:0.16
+    network_mode: host
+    environment:
+    - SECRET_KEY=YOUR_SECRET_KEY_HERE
