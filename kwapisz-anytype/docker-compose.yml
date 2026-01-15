@@ -18,9 +18,9 @@ services:
     container_name: any-sync-bundle-minio
     command: ["server", "/data", "--console-address", ":9001", "--address", ":9000"]
     restart: unless-stopped
-    ports:
-      - "9000:9000" # S3 API
-      - "9001:9001" # MinIO Console
+    # ports:
+    #   - "9000:9000" # S3 API
+    #   - "9001:9001" # MinIO Console
     environment:
       MINIO_ROOT_USER: minioadmin
       MINIO_ROOT_PASSWORD: minioadmin
