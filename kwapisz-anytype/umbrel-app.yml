@@ -1,7 +1,7 @@
 manifestVersion: 1
 id: kwapisz-anytype
-name: Anytype AIO Bundle
-tagline: A local-first, privacy-focused alternative to Notion.
+name: Anytype
+tagline: A local-first, privacy-focused alternative to Notion. AIO Bundle
 icon: https://i.imgur.com/RtNlRUn.png
 category: Social
 version: "1.0.0"
