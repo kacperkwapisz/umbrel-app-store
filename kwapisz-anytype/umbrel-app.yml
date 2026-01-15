@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: kwapisz-anytype
+name: Anytype AIO Bundle
+tagline: A local-first, privacy-focused alternative to Notion.
+icon: https://i.imgur.com/RtNlRUn.png
+category: Social
+version: "1.0.0"
+port: 0
+description: >-
+  Anytype brings your conversations, docs, notes and databases together in one private app – offering powerful, local-first collaboration. Everything you create is end-to-end encrypted, accessible offline, synced securely across devices – and always yours.
+
+developer: hurlenko
+website: https://github.com/grishy/any-sync-bundle
+submitter: kwapisz
+submission: https://github.com/kacperkwapisz/umbrel-app-store
+repo: https://github.com/grishy/any-sync-bundle
+support: https://github.com/grishy/any-sync-bundle/issues
+gallery:
+  - https://user-images.githubusercontent.com/10330103/170003244-82ef56c3-5589-460e-8e93-9c378b23f9cd.png
+releaseNotes: >-
+  Initial Umbrel integration with AIO bundle
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
