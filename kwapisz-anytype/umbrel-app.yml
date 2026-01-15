@@ -5,7 +5,7 @@ tagline: A local-first, privacy-focused alternative to Notion.
 icon: https://i.imgur.com/RtNlRUn.png
 category: Social
 version: "1.0.0"
-port: 0
+port: 9001
 description: >-
   Anytype brings your conversations, docs, notes and databases together in one private app – offering powerful, local-first collaboration. Everything you create is end-to-end encrypted, accessible offline, synced securely across devices – and always yours.
 
