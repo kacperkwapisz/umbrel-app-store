@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: kwapisz-crate
+name: Crate
+tagline: Organize your bullshit in crates.
+icon: https://i.imgur.com/dmNhJBA.png
+category: Utilities
+version: "1.0.0"
+port: 8429
+description: >-
+  Organize your bullshit in crates.
+
+developer: kacperkwapisz
+website: https://github.com/kacperkwapisz/crate
+submitter: kwapisz
+submission: https://github.com/kacperkwapisz/umbrel-app-store
+repo: https://github.com/kacperkwapisz/crate
+support: https://github.com/kacperkwapisz/crate/issues
+gallery:
+  - https://i.imgur.com/dmNhJBA.png
+releaseNotes: >-
+  Initial Umbrel app release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""

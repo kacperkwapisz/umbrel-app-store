@@ -1,0 +1,21 @@
+version: "3.7"
+
+services:
+
+  app_proxy:
+    environment:
+      APP_HOST: kwapisz-crate_server_1
+      APP_PORT: 3000
+      PROXY_AUTH_ADD: "false"
+
+  server:
+    image: ghcr.io/kacperkwapisz/crate:latest
+    restart: on-failure
+    pull_policy: always
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - BETTER_AUTH_SECRET=very-secret-string-change-me
+      - APP_URL=http://umbrel.local:8429
+    volumes:
+      - ${APP_DATA_DIR}/data:/data
