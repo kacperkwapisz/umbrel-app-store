@@ -8,7 +8,6 @@ services:
   server:
     image: ghcr.io/kacperkwapisz/torrentio-proxy:latest
     restart: unless-stopped
-    ports: ["8410:8080"]
     environment:
       PUID: 1000
       PGID: 1000
