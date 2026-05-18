@@ -1,0 +1,25 @@
+manifestVersion: 1
+id: kwapisz-torrentio-proxy
+name: Torrentio Proxy
+tagline: Torrentio Proxy
+icon: https://torrentio.org/wp-content/uploads/2024/12/Torrentio.png
+category: Utilities
+version: "1.0.0"
+port: 8410
+description: >-
+  Organize your bullshit in crates.
+
+developer: kacperkwapisz
+website: https://github.com/kacperkwapisz/torrentio-proxy
+submitter: kwapisz
+submission: https://github.com/kacperkwapisz/umbrel-app-store
+repo: https://github.com/kacperkwapisz/torrentio-proxy
+support: https://github.com/kacperkwapisz/torrentio-proxy/issues
+gallery:
+  - https://torrentio.org/wp-content/uploads/2024/12/Torrentio.png
+releaseNotes: >-
+  Initial Umbrel app release
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
