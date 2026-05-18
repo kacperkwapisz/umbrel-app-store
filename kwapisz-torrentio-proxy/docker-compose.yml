@@ -12,6 +12,6 @@ services:
     environment:
       PUID=1000
       PGID=1000
-      TOKEN: very-secret-string-change-me
-      CACHE_TTL: 10m
-      LOG_LEVEL: info
+      TOKEN=very-secret-string-change-me
+      CACHE_TTL=10m
+      LOG_LEVEL=info
