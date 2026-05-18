@@ -10,8 +10,8 @@ services:
     restart: unless-stopped
     ports: ["8410:8080"]
     environment:
-      - PUID=1000
-      - PGID=1000
-      - TOKEN=very-secret-string-change-me
-      - CACHE_TTL=10m
-      - LOG_LEVEL=info
+      PUID: 1000
+      PGID: 1000
+      TOKEN: "very-secret-string-change-me"
+      CACHE_TTL: 10m
+      LOG_LEVEL: info
